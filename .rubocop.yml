@@ -8,3 +8,12 @@ AllCops:
 Gemspec/RequiredRubyVersion:
   Exclude:
     - rubocopfiles.gemspec
+
+Style/AccessorGrouping:
+  EnforcedStyle: separated
+
+Style/Documentation:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
