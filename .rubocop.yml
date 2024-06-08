@@ -15,11 +15,20 @@ Layout/LineLength:
 Metrics/AbcSize:
   Enabled: false
 
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
 Style/AccessorGrouping:
   EnforcedStyle: separated
 
 Style/Documentation:
   Enabled: false
+
+Style/NumberedParametersLimit:
+  Max: 2
 
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
