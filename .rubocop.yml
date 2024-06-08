@@ -9,6 +9,12 @@ Gemspec/RequiredRubyVersion:
   Exclude:
     - rubocopfiles.gemspec
 
+Layout/LineLength:
+  Max: 140
+
+Metrics/AbcSize:
+  Enabled: false
+
 Style/AccessorGrouping:
   EnforcedStyle: separated
 
