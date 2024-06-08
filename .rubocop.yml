@@ -30,11 +30,13 @@ Metrics/PerceivedComplexity:
 Style/AccessorGrouping:
   EnforcedStyle: separated
 
+Style/CombinableLoops:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
 Style/NumberedParametersLimit:
   Max: 2
-
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
