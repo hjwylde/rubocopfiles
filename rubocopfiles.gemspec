@@ -15,7 +15,5 @@ Gem::Specification.new do |spec|
   spec.metadata['homepage_uri'] = 'https://github.com/hjwylde/rubocopfiles'
   spec.metadata['rubygems_mfa_required'] = 'true'
 
-  spec.files = ['.rubocop.yml']
-
-  spec.add_dependency 'rubocop'
+  spec.files = %w[config/rubocop.yml config/rubocop-rake.yml]
 end

@@ -1,0 +1,35 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+Layout/LineLength:
+  Max: 140
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/AccessorGrouping:
+  EnforcedStyle: separated
+
+Style/CombinableLoops:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/NumberedParametersLimit:
+  Max: 2
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
