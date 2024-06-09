@@ -1,0 +1,6 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+Rake/Desc:
+  Enabled: false
