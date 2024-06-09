@@ -26,10 +26,23 @@ Style/AccessorGrouping:
 Style/CombinableLoops:
   Enabled: false
 
+Style/ConditionalAssignment:
+  Enabled: false
+
 Style/Documentation:
+  Enabled: false
+
+Style/EmptyElse:
+  AllowComments: true
+
+Style/IfUnlessModifier:
   Enabled: false
 
 Style/NumberedParametersLimit:
   Max: 2
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
