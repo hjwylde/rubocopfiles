@@ -7,5 +7,5 @@ ruby '3.3.1'
 gemspec
 
 group :development do
-  gem 'rubocop'
+  gem 'rubocop', require: false
 end
