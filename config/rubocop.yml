@@ -14,6 +14,9 @@ Layout/LineLength:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
 Metrics/AbcSize:
   Enabled: false
 
@@ -40,6 +43,10 @@ Metrics/PerceivedComplexity:
 
 Style/AccessorGrouping:
   EnforcedStyle: separated
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  AllowBracesOnProceduralOneLiners: true
 
 Style/CombinableLoops:
   Enabled: false
