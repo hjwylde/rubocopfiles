@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Abort if protected files are changed
         run: git diff --exit-code ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} ${{ env.protected_files }}
