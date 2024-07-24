@@ -2,12 +2,14 @@ version: 2
 updates:
   - package-ecosystem: "bundler"
     directory: "/"
+    labels: ["automerge"]
     open-pull-requests-limit: 3
     schedule:
       interval: "weekly"
 
   - package-ecosystem: "github-actions"
     directory: "/"
+    labels: ["automerge"]
     open-pull-requests-limit: 3
     schedule:
       interval: "weekly"
