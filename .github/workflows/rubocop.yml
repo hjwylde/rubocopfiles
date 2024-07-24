@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: ["main"]
   schedule:
-    interval: "weekly"
+    - cron: "0 3 * * 5"
 
 jobs:
   rubocop:
