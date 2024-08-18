@@ -66,6 +66,9 @@ Style/IfUnlessModifier:
 Style/NumberedParametersLimit:
   Max: 2
 
+Style/TernaryParentheses:
+  EnforcedStyle: require_parentheses_when_complex
+
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
 
