@@ -1,3 +1,3 @@
 # rubocopfiles
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![RuboCop](https://github.com/hjwylde/rubocopfiles/actions/workflows/rubocop.yml/badge.svg)](https://github.com/hjwylde/rubocopfiles/actions/workflows/rubocop.yml)
