@@ -8,6 +8,9 @@ Layout/FirstHashElementIndentation:
 Layout/HashAlignment:
   EnforcedLastArgumentHashStyle: always_ignore
 
+Layout/LeadingCommentSpace:
+  AllowRBSInlineAnnotation: true
+
 Layout/LineLength:
   Max: 140
 
