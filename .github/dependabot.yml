@@ -5,11 +5,11 @@ updates:
     labels: ["automerge", "dependencies", "ruby"]
     open-pull-requests-limit: 3
     schedule:
-      interval: "weekly"
+      interval: "monthly"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     labels: ["automerge", "dependencies", "github-actions"]
     open-pull-requests-limit: 3
     schedule:
-      interval: "weekly"
+      interval: "monthly"
